@@ -1,0 +1,254 @@
+/*============================================ */
+/*universal styles */
+/*============================================ */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+p{
+    line-height: 190%;
+
+}
+
+a{
+    text-decoration: none;
+    color:indianred ;;
+}
+
+#main{
+    background:lightgray;
+ }
+
+
+
+/*============================================ */
+/*MENU */
+/*============================================ */
+
+#menu{
+    background-color:indianred ;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color: white;
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+    
+}
+
+#menu a:hover{
+    background-color: rgb(109, 18, 18);
+}
+/*============================================ */
+/*Banner Images  */
+/*============================================ */
+#banner{
+    display:inline-block;
+   align-items: inherit;
+  
+}
+/*============================================ */
+/*HEADER  */
+/*============================================ */
+
+#header{
+    padding: 60px 0px 40px 0px;
+    background-image: url("images/vitor-pinto-Ox_VVo-RYWA-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: white;
+}
+
+#header p{
+    letter-spacing: 0.1em;
+    color: white;
+}
+/*============================================ */
+/*PAGE  */
+/*============================================ */
+#page{
+    min-height: 400px;
+    padding: 20px;
+
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color:rgba(180, 16, 16, 0.856) ;;
+}
+/*CONTENT  */
+#content{
+    float: left;
+    width: 70%;
+}
+/*SIDEBAR  */
+#sidebar{
+    float: right;
+    width: 25%;
+
+}
+/*Lists  */
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+border-top: solid 1px #e5e5e5;
+padding: 14px 0;
+
+}
+
+/*================INFO BOX==================**/
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+    background-color: grey;
+}
+#content1{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 0px;
+}
+.info-box img{
+      height : 70px;
+      margin : 10px;
+      float  : left;
+}
+
+.info-box h3{
+      padding : 0;
+      margin-bottom :0;
+      width : 90%;
+      color : #572800;
+}
+
+.info-box p{
+    margin-top: 0px;
+      margin  : 0;
+      padding : 0;
+      width   : 90%;
+      color  : #131313;
+}
+
+
+
+/*================Index-Images===================*/
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+} 
+.gallery{
+    margin: 80px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+
+  
+}
+.gallery img {
+    width: 500px;
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.desc2{
+    padding: 15px;
+    text-align: center;
+    font: italic;
+}
+/*============================================ */
+/*FOOTER  */
+/*============================================ */
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1e1b1a;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+
+#foooter p{
+    color: #adadad;
+}
+#foooter a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+
+}
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+
+}
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+
+}
